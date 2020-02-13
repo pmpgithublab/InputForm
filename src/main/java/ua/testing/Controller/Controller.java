@@ -29,7 +29,7 @@ public class Controller {
     }
 
     public void start() {
-        new ReadNote(model, view).readNewNote();
+        new ReadNote(model, view).readNewNoteFromScanner();
     }
 
 }
