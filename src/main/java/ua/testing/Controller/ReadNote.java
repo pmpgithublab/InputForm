@@ -30,7 +30,7 @@ public class ReadNote {
         this.view = view;
     }
 
-    public void readNewNote() {
+    public void readNewNoteFromScanner() {
         model.addNote(new NotebookNote(getScannerInputWithProperties("ASK_FIRST_NAME", "REGEX_FIRST_NAME_CHECK_OUT"),
                 getScannerInputWithProperties("ASK_MIDDLE_NAME", "REGEX_MIDDLE_NAME_CHECK_OUT"),
                 getScannerInputWithProperties("ASK_LAST_NAME", "REGEX_LAST_NAME_CHECK_OUT"),
