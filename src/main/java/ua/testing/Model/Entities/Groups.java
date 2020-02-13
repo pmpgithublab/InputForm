@@ -10,7 +10,7 @@ public enum Groups {
 
     public String getList() {
         StringBuilder result = new StringBuilder(View.OPEN_SQUARE_BRACKET_SIGN);
-        for (Groups group : Groups.values()){
+        for (Groups group : Groups.values()) {
             result.append(group.name());
             result.append(View.concatenatingStrings(View.COMMA_SIGN, View.SPACE_SIGN));
         }

@@ -19,10 +19,10 @@ public class Address {
 
     public String getFullAddress() {
         return View.concatenatingStrings(index, View.COMMA_SIGN, View.SPACE_SIGN,
-                                        city, View.COMMA_SIGN, View.SPACE_SIGN,
-                                        street, View.COMMA_SIGN, View.SPACE_SIGN,
-                                        houseNumber, View.COMMA_SIGN, View.SPACE_SIGN,
-                                        flatNumber, View.POINT_SIGN);
+                city, View.COMMA_SIGN, View.SPACE_SIGN,
+                street, View.COMMA_SIGN, View.SPACE_SIGN,
+                houseNumber, View.COMMA_SIGN, View.SPACE_SIGN,
+                flatNumber, View.POINT_SIGN);
     }
 
 }
