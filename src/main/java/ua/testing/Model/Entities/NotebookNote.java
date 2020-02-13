@@ -6,10 +6,7 @@
 
 package ua.testing.Model.Entities;
 
-import ua.testing.Model.Entities.Address;
-import ua.testing.Model.Entities.Groups;
 import ua.testing.View.*;
-
 import java.util.Date;
 import java.util.HashSet;
 

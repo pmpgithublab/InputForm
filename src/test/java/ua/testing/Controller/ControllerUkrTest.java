@@ -13,7 +13,6 @@ import ua.testing.Model.Model;
 import ua.testing.View.View;
 
 import java.util.HashSet;
-
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 

@@ -9,9 +9,7 @@ import org.junit.Test;
 import ua.testing.Model.Entities.Groups;
 import ua.testing.Model.Model;
 import ua.testing.View.View;
-
 import java.util.HashSet;
-
 import static org.junit.Assert.*;
 
 

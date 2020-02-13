@@ -10,7 +10,6 @@ import ua.testing.Model.Entities.Groups;
 import ua.testing.Model.Entities.NotebookNote;
 import ua.testing.Model.Model;
 import ua.testing.View.View;
-
 import java.util.HashSet;
 import java.util.Scanner;
 
