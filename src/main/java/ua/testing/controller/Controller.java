@@ -11,6 +11,8 @@ package ua.testing.controller;
 import ua.testing.model.Model;
 import ua.testing.view.View;
 
+import java.util.Locale;
+
 
 /**
  * Class for input information (controller in MVC model).
@@ -29,6 +31,7 @@ public class Controller {
     }
 
     public void start() {
+        view.changeLocale(new Locale("uk", "UA"));
         new ReadNote(model, view).readNewNoteFromScanner();
     }
 

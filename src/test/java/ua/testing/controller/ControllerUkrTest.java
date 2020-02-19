@@ -34,7 +34,7 @@ public class ControllerUkrTest {
 
     @BeforeClass
     public static void init() {
-        view.changeLocale(new Locale("ua", "UA"));
+        view.changeLocale(new Locale("uk", "UA"));
     }
 
     @Test
