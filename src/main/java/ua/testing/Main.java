@@ -1,22 +1,22 @@
 /*
  * @(#)Main.java     1.00 2020/02/11
  *
- * This software is free for use.
+ * This software can be used for free.
  */
 
 
 package ua.testing;
 
-import ua.testing.Controller.Controller;
-import ua.testing.Model.Model;
-import ua.testing.View.View;
+import ua.testing.controller.Controller;
+import ua.testing.model.Model;
+import ua.testing.view.View;
 
 
 /**
- * Class description goes here.
+ * Main class for start this application.
  *
- * @version 1.00 11 Feb 2020
  * @author Firstname Lastname
+ * @version 1.00 11 Feb 2020
  */
 public class Main {
 

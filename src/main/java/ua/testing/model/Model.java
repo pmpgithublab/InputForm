@@ -5,11 +5,11 @@
  */
 
 
-package ua.testing.Model;
+package ua.testing.model;
 
 
-import ua.testing.Model.Entities.Notebook;
-import ua.testing.Model.Entities.NotebookNote;
+import ua.testing.model.entity.Notebook;
+import ua.testing.model.entity.NotebookNote;
 
 import java.util.*;
 

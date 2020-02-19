@@ -1,7 +1,21 @@
-package ua.testing.Model.Entities;
+/*
+ * @(#)Address.java     1.00 2020/02/11
+ *
+ * This software can be used for free.
+ */
 
-import ua.testing.View.View;
 
+package ua.testing.model.entity;
+
+import ua.testing.view.View;
+
+
+/**
+ * Class for keeping data about address of a person.
+ *
+ * @author Firstname Lastname
+ * @version 1.00 11 Feb 2020
+ */
 public class Address {
     private String index;
     private String city;

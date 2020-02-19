@@ -1,12 +1,13 @@
 /*
  * @(#)Note.java     1.00 2020/02/11
  *
- * This software is free for use.
+ * This software can be used for free.
  */
 
-package ua.testing.Model.Entities;
+package ua.testing.model.entity;
 
-import ua.testing.View.*;
+import ua.testing.view.*;
+
 import java.util.Date;
 import java.util.HashSet;
 
@@ -43,8 +44,7 @@ public class NotebookNote {
     public NotebookNote(String firstName, String middleName, String lastName, String nickName, String comment,
                         HashSet<Groups> personGroups,
                         String homePhoneNumber, String sellPhoneNumber, String sellPhoneNumber2,
-                        String email, String skype, Address address
-    ) {
+                        String email, String skype, Address address) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;

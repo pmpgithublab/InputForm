@@ -5,11 +5,11 @@
  */
 
 
-package ua.testing.Controller;
+package ua.testing.controller;
 
 
-import ua.testing.Model.Model;
-import ua.testing.View.View;
+import ua.testing.model.Model;
+import ua.testing.view.View;
 
 
 /**

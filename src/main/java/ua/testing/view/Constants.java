@@ -1,9 +1,11 @@
 /*
  * @(#)SignConstants.java     1.00 2020/02/11
  *
- * This software is free for use.
+ * This software can be used for free.
  */
-package ua.testing.View;
+
+
+package ua.testing.view;
 
 
 /**
@@ -12,7 +14,7 @@ package ua.testing.View;
  * @author Firstname Lastname
  * @version 1.00 11 Feb 2020
  */
-public interface SignConstants {
+public interface Constants {
 
     String SPACE_SIGN = " ";
     String POINT_SIGN = ".";

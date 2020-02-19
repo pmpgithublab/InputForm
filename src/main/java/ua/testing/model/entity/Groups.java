@@ -1,7 +1,21 @@
-package ua.testing.Model.Entities;
+/*
+ * @(#)Groups.java     1.00 2020/02/11
+ *
+ * This software can be used for free.
+ */
 
-import ua.testing.View.View;
 
+package ua.testing.model.entity;
+
+import ua.testing.view.View;
+
+
+/**
+ * User groups enum.
+ *
+ * @author Firstname Lastname
+ * @version 1.00 11 Feb 2020
+ */
 public enum Groups {
     FAMILY,
     FRIEND,
@@ -26,8 +40,6 @@ public enum Groups {
         for (Groups groups : Groups.values()) {
             result.append(groups.name());
             result.append(View.SEPARATE_SIGN);
-        }
-        for (Groups groups : Groups.values()) {
             result.append(groups.name().toLowerCase());
             result.append(View.SEPARATE_SIGN);
         }
